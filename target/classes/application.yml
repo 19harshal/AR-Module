@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: harshal
+    url: jdbc:h2:mem:testdb
+    username: harshal
+  jpa:
+    hibernate:
+      ddl-auto: update    
+
+plan-api: 
+ member: 
+  planSave : Plan Saved 
+  planFail : Plan Failed
+  planUpdateSuccess : Plan Updated Successfully
+  planUpdateFailed : Plan Updation Failed
+  planDeletedSuccess : Plan Deleted Successfully
+  planDeletedFailed : Plan Deletion Failed
+  planStatusChangeSuc : Plan Status Changes Successfully
+  planStatusChangeFail : Plan Status Changes Failed    
